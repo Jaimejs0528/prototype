@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "node serve.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "express": "^4.17.1",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "template-loader": "^0.2.0",
