@@ -58,7 +58,7 @@ export default {
     box-shadow: 0 0 15px 2px #555;
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    min-height: 80px;
     z-index: 2;
 
     &>img{
